@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>おみくじ</title>
+    <!--    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">-->
+    <!--     <link rel="stylesheet" href="https://cdn.rawgit.com/kimeiga/bahunya/css/bahunya-0.1.3.css"/>-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1/new.min.css">
+    <link rel="stylesheet" href="https://newcss.net/theme/night.css">
+</head>
+
+<body>
+
+    <div style="text-align: center">
+        <!-- おみくじを引くボタン -->
+        <p><button id="button" type="button">おみくじを引く</button></p>
+
+        <!-- 結果出力エリア -->
+        <p><img id="omikuji-image" src="images/omikuji.png" onclick="buttonClick()" /></p>
+    </div>
+
+    <div id="result-area"></div>
+    <!-- JS読み込み -->
+    <script src="main.js"></script>
+    <script src="temp.js"></script>
+</body>
+
+</html>
